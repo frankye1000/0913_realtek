@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ETLBox" Version="3.0.0" />
+    <PackageReference Include="ETLBox.Csv" Version="3.0.0" />
+    <PackageReference Include="ETLBox.Db2" Version="3.0.0" />
+    <PackageReference Include="ETLBox.Excel" Version="3.0.0" />
+    <PackageReference Include="ETLBox.Json" Version="3.0.0" />
+    <PackageReference Include="ETLBox.Odbc" Version="3.0.0" />
+    <PackageReference Include="ETLBox.OleDb" Version="3.0.0" />
+    <PackageReference Include="ETLBox.Postgres" Version="3.0.0" />
+    <PackageReference Include="ETLBox.Snowflake" Version="3.0.0" />
+    <PackageReference Include="ETLBox.SqlServer" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
